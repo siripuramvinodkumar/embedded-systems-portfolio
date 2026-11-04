@@ -46,4 +46,4 @@ Hello, ESP32!
 ![Circuit Blueprint Configuration](diagram.json.jpg)
 
 ### 4. Library Manager Dashboard Status
-![Library Manager Status](Library Manager.jpg)
+![Library Manager Status](LibraryManager.jpg)
