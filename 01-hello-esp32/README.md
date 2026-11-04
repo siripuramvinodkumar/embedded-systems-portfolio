@@ -31,3 +31,19 @@ load:0x40080400,len:2972
 entry 0x400805dc
 Hello, ESP32!
 ```
+
+---
+
+## Visual Workspace Snapshots
+
+### 1. Active Simulation Terminal Output
+![Active Simulation Output](Simulation.jpg)
+
+### 2. Code Script Architecture (`sketch.ino`)
+![Sketch Code Structure](sketch.ino.jpg)
+
+### 3. Circuit Blueprint Layout Configuration (`diagram.json`)
+![Circuit Blueprint Configuration](diagram.json.jpg)
+
+### 4. Library Manager Dashboard Status
+![Library Manager Status](Library Manager.jpg)
