@@ -4,11 +4,11 @@
 This project acts as the foundational baseline for learning embedded systems. It configures the ESP32 microcontroller to open a secure diagnostic serial communication channel with a connected computer terminal and print a startup confirmation message.
 
 ## Setup & Steps Followed
-1. **Created Project Structure:** Launched a clean ESP32 development board template using the online Wokwi hardware simulator.
-2. **Initialized Serial Channel:** Declared the `Serial.begin(115200);` command inside the `setup()` function block to open a transmission pipeline operating at a baud rate of 115,200 bits per second.
-3. **Programmed the Output:** Utilized the `Serial.println()` function to command the chip's central processing unit to transmit a plain-text confirmation greeting.
-4. **Optimized CPU Cycle Rates:** Integrated a protective 10-millisecond window (`delay(10);`) inside the infinite execution loop (`loop()`) to restrict empty processing iterations and optimize background engine execution.
-5. **Executed Simulation:** Successfully compiled the script and ran the simulation to verify vocabulary accuracy and trace physical device terminal outputs.
+* **Created Project Structure:** Launched a clean ESP32 development board template using the online Wokwi hardware simulator.
+* **Initialized Serial Channel:** Declared the `Serial.begin(115200);` command inside the `setup()` function block to open a transmission pipeline operating at a baud rate of 115,200 bits per second.
+* **Programmed the Output:** Utilized the `Serial.println()` function to command the chip's central processing unit to transmit a plain-text confirmation greeting.
+* **Optimized CPU Cycle Rates:** Integrated a protective 10-millisecond window (`delay(10);`) inside the infinite execution loop (`loop()`) to restrict empty processing iterations and optimize background engine execution.
+* **Executed Simulation:** Successfully compiled the script and ran the simulation to verify vocabulary accuracy and trace physical device terminal outputs.
 
 ## Hardware Components Used
 * **Microcontroller Unit:** Virtual ESP32 Development Board (NodeMCU style Architecture)
